@@ -115,7 +115,7 @@ export default function SignupPage() {
     <div className="min-h-screen bg-gray-950 flex items-center justify-center px-4 py-8">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold mb-2">Team Manager AI</h1>
+          <h1 className="text-4xl font-bold mb-2 text-white">Team Manager AI</h1>
           <p className="text-gray-400">Start your free 7-day trial</p>
         </div>
 
@@ -127,7 +127,7 @@ export default function SignupPage() {
           )}
 
           <div>
-            <label htmlFor="teamName" className="block text-sm font-medium mb-2">
+            <label htmlFor="teamName" className="block text-sm font-medium mb-2 text-gray-200">
               Team Name
             </label>
             <input
@@ -143,7 +143,7 @@ export default function SignupPage() {
           </div>
 
           <div>
-            <label htmlFor="sport" className="block text-sm font-medium mb-2">
+            <label htmlFor="sport" className="block text-sm font-medium mb-2 text-gray-200">
               Sport
             </label>
             <select
@@ -162,7 +162,7 @@ export default function SignupPage() {
           </div>
 
           <div>
-            <label htmlFor="name" className="block text-sm font-medium mb-2">
+            <label htmlFor="name" className="block text-sm font-medium mb-2 text-gray-200">
               Your Name
             </label>
             <input
@@ -178,7 +178,7 @@ export default function SignupPage() {
           </div>
 
           <div>
-            <label htmlFor="email" className="block text-sm font-medium mb-2">
+            <label htmlFor="email" className="block text-sm font-medium mb-2 text-gray-200">
               Email
             </label>
             <input
@@ -194,7 +194,7 @@ export default function SignupPage() {
           </div>
 
           <div>
-            <label htmlFor="phone" className="block text-sm font-medium mb-2">
+            <label htmlFor="phone" className="block text-sm font-medium mb-2 text-gray-200">
               Phone (optional)
             </label>
             <input
@@ -209,7 +209,7 @@ export default function SignupPage() {
           </div>
 
           <div>
-            <label htmlFor="password" className="block text-sm font-medium mb-2">
+            <label htmlFor="password" className="block text-sm font-medium mb-2 text-gray-200">
               Password
             </label>
             <input
@@ -225,7 +225,7 @@ export default function SignupPage() {
           </div>
 
           <div>
-            <label htmlFor="confirmPassword" className="block text-sm font-medium mb-2">
+            <label htmlFor="confirmPassword" className="block text-sm font-medium mb-2 text-gray-200">
               Confirm Password
             </label>
             <input

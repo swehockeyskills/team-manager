@@ -32,7 +32,7 @@ export default function Home() {
             <Link href="/signup" className="px-8 py-3 bg-violet-600 hover:bg-violet-700 rounded-lg font-semibold transition">
               Start Free Trial
             </Link>
-            <button className="px-8 py-3 border border-gray-600 hover:border-gray-400 rounded-lg font-semibold transition">
+            <button className="px-8 py-3 border border-gray-600 hover:border-gray-400 rounded-lg font-semibold transition text-white">
               See How It Works
             </button>
           </div>
@@ -42,7 +42,7 @@ export default function Home() {
       {/* Features Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-16">How It Works</h2>
+          <h2 className="text-4xl font-bold text-center mb-16 text-white">How It Works</h2>
           
           <div className="grid md:grid-cols-3 gap-8">
             {/* Feature 1 */}
@@ -78,18 +78,18 @@ export default function Home() {
       {/* Comparison Table */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-16">vs. TeamSnap</h2>
+          <h2 className="text-4xl font-bold text-center mb-16 text-white">vs. TeamSnap</h2>
           
           <div className="overflow-x-auto">
             <table className="w-full border-collapse">
               <thead>
                 <tr className="border-b border-gray-700">
-                  <th className="text-left p-4 font-bold">Feature</th>
-                  <th className="text-center p-4 font-bold">TeamSnap<br/><span className="text-sm font-normal text-gray-400">$99/yr</span></th>
-                  <th className="text-center p-4 font-bold">Team Manager AI<br/><span className="text-sm font-normal text-violet-400">$29/mo</span></th>
+                  <th className="text-left p-4 font-bold text-white">Feature</th>
+                  <th className="text-center p-4 font-bold text-white">TeamSnap<br/><span className="text-sm font-normal text-gray-400">$99/yr</span></th>
+                  <th className="text-center p-4 font-bold text-white">Team Manager AI<br/><span className="text-sm font-normal text-violet-400">$29/mo</span></th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody className="text-gray-300">
                 <tr className="border-b border-gray-800">
                   <td className="p-4">Schedule & roster</td>
                   <td className="text-center p-4">✅</td>
@@ -124,7 +124,7 @@ export default function Home() {
       {/* Pricing Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-4">Simple Pricing</h2>
+          <h2 className="text-4xl font-bold text-center mb-4 text-white">Simple Pricing</h2>
           <p className="text-center text-gray-400 mb-16">Pay only for what you use</p>
 
           {/* Founding Member Banner */}
@@ -190,7 +190,7 @@ export default function Home() {
       {/* Final CTA */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-8">Ready to get your evenings back?</h2>
+          <h2 className="text-4xl font-bold mb-8 text-white">Ready to get your evenings back?</h2>
           <Link href="/signup" className="inline-block px-8 py-4 bg-violet-600 hover:bg-violet-700 rounded-lg font-semibold text-lg transition">
             Sign Up Now
           </Link>
